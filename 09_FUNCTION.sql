@@ -102,17 +102,17 @@ select ename,deptno,decode(
 
 --case() : if~ else if 와 비슷한 구조
 select ename,deptno,
-	case when deptno = 10 then 'account',
-	case when deptno = 20 then 'account',
-	case when deptno = 30 then 'account',
-	case when deptno = 40 then 'account',
-	case when deptno = 50 then 'account',
-	case when deptno = 60 then 'account',
-	case when deptno = 70 then 'account',
-	case when deptno = 80 then 'account',
-	case when deptno = 90 then 'account',
-	case when deptno = 100 then'account',
-	case when deptno = 110 then'account',
+	case when deptno = 10 then 'account'
+	case when deptno = 20 then 'account'
+	case when deptno = 30 then 'account'
+	case when deptno = 40 then 'account'
+	case when deptno = 50 then 'account'
+	case when deptno = 60 then 'account'
+	case when deptno = 70 then 'account'
+	case when deptno = 80 then 'account'
+	case when deptno = 90 then 'account'
+	case when deptno = 100 then'account'
+	case when deptno = 110 then'account'
 			end as "부서명"
 	from emp;
 
